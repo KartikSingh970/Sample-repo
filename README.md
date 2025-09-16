@@ -1,4 +1,4 @@
-# 🌐 AWS-EC2-Webpage
+# 🌐 Sample Repository
 
 ## 🚀 Project Overview
 This project demonstrates **manual deployment of a static website** on an AWS EC2 instance. The website contains a simple `index.html` with hover and click effects and is deployed via **git clone from GitHub** using NGINX.
@@ -7,11 +7,11 @@ This project demonstrates **manual deployment of a static website** on an AWS EC
 
 ## 📁 Repository Structure
 
-AWS-EC2-Webpage/
+Sample-repo/
 ├── index.html # Main webpage with hover effect
 ├── index.js # JS file for clickable heading alert
 ├── README.md # Project documentation
-├── OutputAWS.png # Screenshot of deployed site and terminal
+
 
 
 ---
@@ -59,12 +59,6 @@ README.md 📄
 
 Initialized Git and pushed to GitHub via SSH:
 
-git init
-git add .
-git commit -m "Initial commit with index.html and index.js"
-git remote add origin git@github.com:yourusername/AWS-EC2-Webpage.git
-git branch -M main
-git push -u origin main
 
 4️⃣ Clone Repository on EC2
 cd /home/ubuntu
